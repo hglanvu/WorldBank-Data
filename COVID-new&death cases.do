@@ -41,5 +41,6 @@
 	bysort date: egen total_cases_world=total(total_cases)
 	bysort date: egen total_deaths_world=total(total_deaths)
 	
+#creat line graph 
 line total_cases_world total_deaths_world date
 	
